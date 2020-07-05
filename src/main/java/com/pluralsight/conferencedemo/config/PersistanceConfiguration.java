@@ -4,7 +4,7 @@ import org.springframework.boot.jdbc.DataSourceBuilder;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import javax.sql.DataSource;
+//import javax.sql.DataSource;
 
 @Configuration
 public class PersistanceConfiguration {
@@ -15,7 +15,7 @@ public class PersistanceConfiguration {
         builder.url("jdbc:mysql://localhost:3306/conference_demo");
         builder.username("root");
         builder.password("Welcome123");
-        System.out.println("My data source build successful");
+        System.out.println("My data source build successfully");
         return builder.build();
     }*/
 }
